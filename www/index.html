@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>touch.io</title>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<script type="text/javascript" charset="utf-8">
+
+/* Some mobile devices have default behaviors for touchmove, 
+such as the classic iOS overscroll effect, which causes the 
+view to bounce back when scrolling exceeds the bounds of the content.
+This is confusing in many multi-touch applications, and can easily be disabled
+*/
+document.body.addEventListener('touchmove', function(event) {
+  event.preventDefault();
+}, false);
+
+</script>
+<style type="text/css">
+body { margin: 0px; padding:0; overflow: hidden; }
+</style>
+</head>
+<body>
+
+
+</body>
+</html>
