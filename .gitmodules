@@ -1,0 +1,3 @@
+[submodule "node/lib/ws"]
+	path = node/lib/ws
+	url = git://github.com/ncr/node.ws.js.git
